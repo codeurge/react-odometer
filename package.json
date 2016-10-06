@@ -1,6 +1,6 @@
 {
   "name": "react-odometer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React component to insert Hubspot's Odometer",
   "main": "./index.js",
   "keywords": [
@@ -15,8 +15,11 @@
   },
   "author": "Adam Neary (adamrneary)",
   "license": "MIT",
+  "dependencies": {
+    "odometer": "^0.4.6"
+  },
   "devDependencies": {
-    "odometer": "^0.4.6",
     "react": "^0.11.0"
-  }
+  },
+  "dependencies": {}
 }
