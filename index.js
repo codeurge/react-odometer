@@ -12,7 +12,7 @@ var OdometerComponent = React.createClass({
       theme: this.props.theme || 'default',
     });
   },
-  componentWillUpdate: function(nextProps) {
+  componentWillRecieveProps: function(nextProps) {
     this.odometer.update(`${1000 + nextProps.value}`);
   },
   render: function() {
